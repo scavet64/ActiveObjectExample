@@ -2,7 +2,6 @@ package activeobject;
 
 import activeobject.game.GameEngine;
 import activeobject.game.gameobject.GameObject;
-import com.sun.javafx.geom.Vec3f;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +12,7 @@ import java.util.concurrent.TimeoutException;
 
 public class App {
 
-    private static int MOVER_THREADS_PER_GAMEOBJECT = 100;
+    private static int MOVER_THREADS_PER_GAMEOBJECT = 10000;
 
     public static void main(String[] args) throws InterruptedException, TimeoutException, ExecutionException {
 

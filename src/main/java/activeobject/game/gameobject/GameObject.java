@@ -1,6 +1,6 @@
 package activeobject.game.gameobject;
 
-import com.sun.javafx.geom.Vec3f;
+import activeobject.Vec3f;
 
 import java.util.concurrent.Future;
 
